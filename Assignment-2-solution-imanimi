@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+	*
+	{
+		box-sizing: border-box;
+	}
+h1
+{
+	text-align: center;
+	font-family: Helvetica;
+	word-spacing: 5px;
+	font-weight: bold;
+	font-size: 175%;
+	margin-bottom: 15px;
+}
+.row
+{
+	width: 100%;
+}
+div
+{
+	align-items: center;
+	align-content: center;
+}
+div div
+{
+	margin-bottom: 15px;
+	float: left;
+	clear: right;
+	width: 90%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: 10px;
+	background-color: #D99899;
+	border: 5% solid black;
+}
+h3
+{
+border: 1px solid black;
+width: 29%;
+height: 16%;
+float: right;
+bottom: 19px;
+clear: left;
+text-align: center;
+position: relative;
+margin-bottom: 10px;
+margin-left: 100%;
+}
+
+#box1
+{
+background-color: purple;
+}
+#box2
+{
+background-color: yellow;
+}
+#box3
+{
+background-color: gray;
+}
+@media(min-width:992px)
+{.col-lg-1,.col-lg-2,.col-lg-3
+{
+	float: left;
+	border:1px;
+	border-color: green;
+	}
+.col-lg-1
+{width: 30%;}
+.col-lg-2
+{width: 30%;}
+.col-lg-3
+{width: 30%;}
+}
+@media(min-width:768px) and (max-width:991px )
+{.col-md-1,.col-md-2,.col-md-3
+{
+	float: left;
+	border:1px;
+	border-color: green;
+	}
+.col-lg-1
+{width: 45%;}
+.col-lg-2
+{width: 45%;}
+.col-lg-3
+{width: 45%;}
+}
+@media(max-width:767px)
+{.col-sm-1,.col-sm-2,.col-sm-3
+{
+	float: left;
+	border:1px;
+	border-color: green;
+	}
+.col-sm-1
+{width: 100%;}
+.col-sm-2
+{width: 100%;}
+.col-sm-3
+{width: 100%;}
+}
+</style>
+<body>
+	<h1>Our Menu</h1>
+<div class="row">
+	<div class="col-lg-1 col-md-1 col-sm-1">
+		<h3 id="box1">Chicken</h3>
+
+	<p>
+		Chicken originally referred to young domestic fowl. The species as a whole was then called domestic fowl, or just fowl. This use of chicken survives in the phrase Hen and Chickens, sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea.
+	</p>
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-2">
+		<h3 id="box2">Beef</h3>
+	<p>
+		Beef is meat from a cow. It's also a word for a complaint. The word beef comes from the Old French word buef, which became the word for basically, cow meat. Beef is to cow as pork is to pig or mutton is to sheep. On the other hand, if you have a beef with someone, you have a complaint.
+	</p>
+	</div>
+	<div class="col-lg-3 col-md-1 col-sm-3">
+				<h3 id="box3">Sushi</h3>
+
+	<p>
+		Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari, or sumeshi.
+	</p>
+	</div>
+</div>
+</body>
+</html>
